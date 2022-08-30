@@ -5,3 +5,7 @@ router.get('/', (req, res) => {
     res.sendFile(path.joint(_dirname, '../../public/index.html'));
 });
 
+router.get('/notes', (req, res) => {
+    res.sendFile(path.joint( _dirname, '../../public/index.html'));
+});
+
