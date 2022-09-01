@@ -11,7 +11,7 @@ router.get('/notes', (req, res) => {
 });
 
 router.get('/notes/:id', (req, res) => {
-    const result =findById(req.params.id, notes);
+    const result = findById(req.params.id, notes);
     if(result) {
         res.json(result);
     } else {
